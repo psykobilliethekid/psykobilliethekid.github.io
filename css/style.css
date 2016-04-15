@@ -1,0 +1,36 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron{
+	color: #fff;
+	background-color: #8116A0;
+	margin-bottom: 5px;
+}
+
+.tools{
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.tools-list{
+	font-size: 24px;
+}
+
+.work{
+	color: #fff;
+	background-color: #8116A0;
+	padding-top: 18px;
+	padding-bottom: 70px;
+}
+
+.resume{
+	padding-bottom: 150px;
+}
+
+footer{
+	font-size: 18px;
+	padding: 15px 10px;
+}
