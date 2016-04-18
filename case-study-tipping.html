@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Case Study - Aquarian Bookshop | Portfolio of Danielle Moss - Resume</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">The Portfolio of Danielle Moss</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Area -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Danielle Moss</h1>
+        <p>Website maker and sometimes game creator</p>
+        <p>
+          <a class="btn btn-info btn-lg" href="http://twitter.com/danijmoss" target="_blank" role="button">Twitter</a>
+          <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/danijmoss" target="_blank" role="button">LinkedIn</a>
+          <a class="btn btn-warning btn-lg" href="resume.html" role="button">Resume</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid resume">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Case Study - Tipping the Scales in their Favor</h1>
+          <hr>
+        </div>
+        
+        <div class="col-md-6">
+          <img src="img/tipping-case-study.jpg" alt="Screenshot of Tipping the Scales webinar" class="img-responsive pull-right">
+        </div>
+
+        <div class="col-md-6">
+          <p class="text-justify">The Abuse and Neglect Program with the Partnership for People with Disabilities gave me the project to create their webinar application. Their criteria for the project was:
+          <ul>
+            <li>a site with a homepage showing an introduction to the webinar</li>
+            <li>access to the three sessions</li>
+            <li>a place to watch the webinar</li>
+            <li>a quiz on the material covered with a way to grade the quiz</li>
+            <li>a page to have those that failed retake the quiz</li>
+            <li>a page for those that passed the quiz to fill out a questionaire that will generate their completion certificate</li>
+            <li>a way to track those that have taken each quiz, their questionaire results, and the date of the certificate</li>
+          </ul>
+          </p>
+
+          <p class="text-justify">There were many hurdles to pass with this particular project, mostly due to the contratry and inconsistant directions given from the customers in the Abuse and Neglect Program group. I believe they were not completely clear on what they wanted the general flow of the website to be since it was changed several times before settling in on the critera set above. Once I knew what they were looking for, it was just a matter of setting up something in Bootstrap to show how things would work.</p>
+
+          <p class="text-justify">Task: Create a webinar application for a group within the Partnership for People with Disabilities<br>Tools: Bootstrap 3, Github, Photoshop, VideoJS (HTML5 Video Player), SlickQuiz (github repo by jewlofthelotus), Google Form</p>
+
+          <p class="text-justify">Since this project was first given to me before the winter break, I needed to come up with a design that fulfilled the criteria in the quickest way possible. This was the end result:  a basic black/white/gray site that has the buttons showing the user flow through the application. I had to defend my project against a version made using tables, a heavy amount of graphics, and was not responsive/moile friendly. </p>
+
+          <p class="text-justify">The group really liked the graphic heavy site over my bland version, but the above reasons of the site not being responsive/mobile friendly, not using the current web standards used today (tables for the entire site verses <div> and CSS), and how someone with a 56k connection (which is still used in some parts of the country today) would not be able to even load the homepage in 1 hour due to the amount of graphics on screen. </p>
+
+          <p class="text-justify">Needless to say, they chose my version, which led me to add in the main componets of the site to get things working. I added in color, set up the sessions, and added in the webinar videos with VideoJS. I created a pattern in Photoshop with some simple icons I made by hand, and added them as a seemless background to add a little texture. I also set up the quizzes with an app created by the user jewlofthelotus on github, giving me the ability to create different quizzes in a JSON file, have them graded, and have the user either retake the quiz or move on to the questionaire screen. </p>
+
+          <p class="text-justify">The questionaire was the toughest part, since I had to figure out a way to record the webinar participant's information, the date they took the session, their answers to the questionaire, and generate a completion certificate for thieir completed session. After doing some research, I discovered I could restyle a Google Form to look like the rest of the components on the site. I also found an addon for Google Sheets that generates a certificate from the fields used in the Google Form. I set the addon up so it will generate the certificate on form submission, then record the participant's information and questionaire answers in a Google spreadsheet. There is also a copy of the completion certificate generated and stored in Google Docs in case a copy is needed in the future. </p>      
+
+          <p class="text-justify">I have to say I felt really accomplished once this project was completed. Not only was I able to get a working application built in a short amount of time, but I was also able to defend my work, and find solutions to several different problems without too much trouble.</p>   
+        </div>
+      
+ 
+      </div>
+    </div> 
+
+    <footer>
+      <p>&copy; 2016 Danielle Moss</p>
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  </body>
+</html>
